@@ -1,4 +1,5 @@
 # Тестовое задание. Backend
+
 ## 1. Восстановление зависимостей
 
 Из корневой папки проекта, где находится `.sln`, выполнить:
@@ -12,9 +13,7 @@ dotnet restore
 Проект использует SQLite. Для создания базы данных нужно применить миграции:
 
 ```bash
-dotnet ef database update \
-  --project ./Ecom.Infrastructure/Ecom.Infrastructure.csproj \
-  --startup-project ./Ecom.Api/Ecom.Api.csproj
+dotnet ef database update --project ./Ecom.Infrastructure/Ecom.Infrastructure.csproj --startup-project ./Ecom.Api/Ecom.Api.csproj
 ```
 
 После выполнения команды будет создан локальный файл базы данных `app.db`.
