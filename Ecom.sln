@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Api", "Ecom.Api\Ecom.Api.csproj", "{1DC261EF-A819-4583-B04E-BD893043960E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EF40942-02A0-4553-AE76-B6A2E4796C47}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		readme.md = readme.md
+		sample.xlsx = sample.xlsx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Domain", "Ecom.Domain\Ecom.Domain.csproj", "{C9AD5FA8-17EF-4C94-890D-2BC4887FFE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Application", "Ecom.Application\Ecom.Application.csproj", "{262F05B6-63CD-4F18-A79D-0E6795D34DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecom.Infrastructure", "Ecom.Infrastructure\Ecom.Infrastructure.csproj", "{A93FC159-FEB9-47BF-94EA-63B7F321A8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC261EF-A819-4583-B04E-BD893043960E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC261EF-A819-4583-B04E-BD893043960E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC261EF-A819-4583-B04E-BD893043960E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC261EF-A819-4583-B04E-BD893043960E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AD5FA8-17EF-4C94-890D-2BC4887FFE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AD5FA8-17EF-4C94-890D-2BC4887FFE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AD5FA8-17EF-4C94-890D-2BC4887FFE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AD5FA8-17EF-4C94-890D-2BC4887FFE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262F05B6-63CD-4F18-A79D-0E6795D34DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262F05B6-63CD-4F18-A79D-0E6795D34DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262F05B6-63CD-4F18-A79D-0E6795D34DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262F05B6-63CD-4F18-A79D-0E6795D34DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93FC159-FEB9-47BF-94EA-63B7F321A8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93FC159-FEB9-47BF-94EA-63B7F321A8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93FC159-FEB9-47BF-94EA-63B7F321A8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93FC159-FEB9-47BF-94EA-63B7F321A8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

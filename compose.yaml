@@ -1,0 +1,7 @@
+﻿services:
+  ecom:
+    image: ecom
+    build:
+      context: .
+      dockerfile: Ecom/Dockerfile
+
